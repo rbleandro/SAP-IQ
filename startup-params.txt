@@ -1,0 +1,1 @@
+-n cpiq -x tcpip{port=2638} -c 800m -gc 20 -gd all -gl all -gm 100 -gn 150 -gp 4096 -ti 4400 -p 8192 -iqgovern 100 -iqlm 66666 -iqmc 50000 -iqtc 83332 -iqtss 1000 -iqmsgsz 1024 -iqmsgnum 10 -o /opt/sybase/databases/cpiq1.iqmsg -os 100000 -gss 1500 -m cpiq1.db -hn 5
