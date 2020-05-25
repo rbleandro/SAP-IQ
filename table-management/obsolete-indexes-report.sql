@@ -5,15 +5,16 @@
 --Leave it running for some days (or months depending on your workload) and then use the query below to evaluate what is obsolete.
  
 /*
-sp_iqworkmon [ ‘action’ ] [ , ‘mode’ ]
-action = ‘start’ , ‘stop’ , ’status’ , ‘reset’
-mode = ‘index’ , ‘table’ , ‘column’ , ‘all’
+sp_iqworkmon [ 'action' ] [ , 'mode' ]
+action = 'start' , 'stop' , 'status' , 'reset'
+mode = 'index' , 'table' , 'column' , 'all'
 
 For example:
-sp_iqworkmon  ‘start’ , ‘all’ 
+sp_iqworkmon  'start' , 'all' 
+sp_iqworkmon  'start' , 'index' 
 
 If one argument is specified, it can only be action. For example:
-sp_iqworkmon  ‘stop’ 
+sp_iqworkmon  'stop' 
 
 */
 
